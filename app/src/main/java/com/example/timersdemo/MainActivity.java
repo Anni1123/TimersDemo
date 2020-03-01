@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
             counterIsActive = true;
             timerSeekBar.setEnabled(false);
-            controllerButton.setText("Stop");
+            controllerButton.setText("Stopped");
 
             countDownTimer = new CountDownTimer(timerSeekBar.getProgress() * 1000 + 100, 1000) {
 
